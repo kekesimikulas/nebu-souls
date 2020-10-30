@@ -1,0 +1,5 @@
+ng new nebu-souls --createApplication=false
+nebu-souls/
+ng g library nebu-blue-soul -p nbs
+ng g application nebu-souls-showcase
+

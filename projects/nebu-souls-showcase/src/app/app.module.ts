@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { NbLayoutModule, NbThemeModule } from '@nebular/theme';
 import { NbSidebarModule } from '@nebular/theme';
 import { NbButtonModule } from '@nebular/theme';
+import { NebuBlueSoulModule } from 'nebu-blue-soul';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,8 @@ import { NbButtonModule } from '@nebular/theme';
     NbLayoutModule,
     NbSidebarModule.forRoot(), // NbSidebarModule.forRoot(), //if this is your app.module
     NbButtonModule,
+
+    NebuBlueSoulModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

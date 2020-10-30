@@ -1,13 +1,21 @@
+import { FlipitComponent } from './flipit/flipit.component';
 import { NgModule } from '@angular/core';
 import { NebuBlueSoulComponent } from './nebu-blue-soul.component';
-import { NbThemeModule } from '@nebular/theme';
+import { NbCardModule, NbThemeModule } from '@nebular/theme';
 
 
 @NgModule({
-  declarations: [NebuBlueSoulComponent],
+  declarations: [
+    NebuBlueSoulComponent,
+    FlipitComponent,
+  ],
   imports: [
     NbThemeModule.forRoot(),
+    NbCardModule,
   ],
-  exports: [NebuBlueSoulComponent]
+  exports: [
+    NebuBlueSoulComponent,
+    FlipitComponent,
+  ]
 })
 export class NebuBlueSoulModule { }
