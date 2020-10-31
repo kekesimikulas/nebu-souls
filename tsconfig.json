@@ -19,6 +19,10 @@
       "nebu-blue-soul": [
         "dist/nebu-blue-soul/nebu-blue-soul",
         "dist/nebu-blue-soul"
+      ],
+      "nebu-red-soul": [
+        "dist/nebu-red-soul/nebu-red-soul",
+        "dist/nebu-red-soul"
       ]
     }
   }
