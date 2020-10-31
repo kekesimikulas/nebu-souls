@@ -10,7 +10,7 @@ import { NbCardModule, NbThemeModule } from '@nebular/theme';
     FlipitComponent,
   ],
   imports: [
-    NbThemeModule.forRoot(),
+    NbThemeModule,
     NbCardModule,
   ],
   exports: [
